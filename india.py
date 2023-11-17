@@ -23,8 +23,8 @@ memory = ConversationBufferMemory(memory_key="history", chat_memory=msgs)
 if len(msgs.messages) == 0:
 	msgs.add_ai_message("How can I help you?") 
 
-# Define the chatbot's prompt 
-template template = """You are an AI chatbot having a conversation with a human.
+# Define the chatbot's prompt template
+template = """You are an AI chatbot having a conversation with a human.
 {history}
 Human: {human_input}
 AI: """ 
