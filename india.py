@@ -31,7 +31,7 @@ AI: """
 prompt = PromptTemplate(input_variables=["history","human_input"], template=template) 
 
 # Initialize the  LLMChain with the chatbot's memory 
-llm_ chain = LLMChain(llm=OpenAI(), prompt=prompt, memory=memory)
+llm_chain = LLMChain(llm=OpenAI(), prompt=prompt, memory=memory)
 
 # Display the chat messages 
 for msg in msgs.messages:
