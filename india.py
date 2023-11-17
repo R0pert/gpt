@@ -9,7 +9,7 @@ from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate 
 
 ## Setting up the 0penAT API  Key 
-os.environ['OPENAI _API_KEY']= apikey 
+os.environ["OPENAI_API_KEY"] = constants.APIKEY 
 #Initialize the chat message history 
 msgs = StreamlitChatMessageHistory(key='langchain_messages') 
 
