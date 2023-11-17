@@ -1,6 +1,6 @@
 # Importing Necessary Libraries and Nodules 
 import os 
-from constants import apikey 
+from constants import APIKEY 
 import streamlit as st 
 from langchain.memory import ConversationBufferMemory 
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory 
